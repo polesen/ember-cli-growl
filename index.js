@@ -6,6 +6,6 @@ module.exports = {
   included: function(app) {
     this._super.included(app);
 
-    app.import('components/growl-manager.css');
+    app.import('app/styles/components/growl-manager.css');
   }
 };
